@@ -1,0 +1,48 @@
+section{
+    width: 100%!important;
+    margin: 0 auto;
+    
+    .container{
+         width: 100%;
+         margin-top: 2%;
+         margin-bottom: 2%;
+}
+.navbar-brand{
+    .fa-lightbulb-o{
+            font-size: 30px;
+
+     }
+    h1{
+            display: inline-block;
+            color: #414851;
+    }
+    
+}
+.nav{
+    .nav-link{
+        color: #414851;
+    }
+}
+.fa-lightbulb-o::before{
+    position: absolute;
+    content: '\f0eb';
+    color: #ffffff;
+    font-size: 35px;
+    line-height: 55px;
+    font-family: 'FontAwesome';
+    width: 55px;
+    height: 55px;
+    background: #8dbf41;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    top: 0px;
+    left: -45px;
+}
+.photo{
+    margin-top: 10px;
+}
+
+
+
